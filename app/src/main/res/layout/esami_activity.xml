@@ -1,0 +1,75 @@
+<!-- res/layout/esami_activity.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/white"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".EsamiActivity">
+
+    <TextView
+        android:id="@+id/textViewTitolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:text="@string/esami_convalidati"
+        android:textSize="36sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnAggiungiEsame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aggiungiesame"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/calculatedValuesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnAggiungiEsame"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewMediaAritmetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:text="@string/media_aritmetica" />
+
+        <TextView
+            android:id="@+id/textViewMediaPonderata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:text="@string/media_ponderata" />
+
+        <TextView
+            android:id="@+id/textViewVotoLaurea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:text="@string/voto_laurea" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewEsami"
+        android:layout_width="395dp"
+        android:layout_height="508dp"
+        android:layout_above="@id/calculatedValuesLayout"
+        android:layout_below="@+id/textViewTitolo"
+        android:layout_marginTop="-3dp"
+        android:layout_marginBottom="8dp" />
+
+</RelativeLayout>

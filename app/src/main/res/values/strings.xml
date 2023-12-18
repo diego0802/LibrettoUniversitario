@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">LibrettoUniversitario</string>
+    <string name="login_button">Accedi</string>
+    <string name="registratione_button">Registrati</string>
+    <string name="registrazione">Registrazione</string>
+    <string name="login">Login</string>
+    <string name="title">Libretto Universitario 2.0</string>
+    <string name="name">Nome</string>
+    <string name="name_hint">Inserisci il nome</string>
+    <string name="surname">Cognome</string>
+    <string name="surname_hint">Inserisci il cognome</string>
+    <string name="birthdate">Data di nascita</string>
+    <string name="birthdate_hint">Inserisci la data di nascita</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Inserisci la password</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Annulla</string>
+    <string name="aggiungiesame">Aggiungi Esame</string>
+    <string name="nome_esame">Nome Esame</string>
+    <string name="nome_esame_hint">Inserisci il nome del corso</string>
+    <string name="cfu">CFU</string>
+    <string name="cfu_hint">Inserisci il numero di CFU</string>
+    <string name="voto">Voto</string>
+    <string name="voto_hint">Inserisci il voto</string>
+    <string name="aggiungi">Aggiungi al Libretto</string>
+    <string name="inserisciesame">Inserisci esame</string>
+    <string name="media_aritmetica">Media Aritmetica: </string>
+    <string name="media_ponderata">Media Ponderata: </string>
+    <string name="voto_laurea">Voto Di Laurea: </string>
+    <string name="esami_convalidati">Esami Convalidati</string>
+</resources>

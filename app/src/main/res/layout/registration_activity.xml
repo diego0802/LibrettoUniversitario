@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".RegistrazioneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registrazione"
+            android:textColor="@color/blue"
+            android:textSize="36sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="@color/blue"
+            android:textSize="28sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/blue"
+            android:textSize="28sp"
+            android:id="@+id/name"
+            android:hint="@string/name_hint"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/surname"
+            android:textColor="@color/blue"
+            android:textSize="28sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/blue"
+            android:textSize="28sp"
+            android:id="@+id/surname"
+            android:hint="@string/surname_hint"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/birthdate"
+            android:textColor="@color/blue"
+            android:textSize="28sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:textSize="28sp"
+            android:id="@+id/birthdate"
+            android:textColor="@color/blue"
+            android:focusable="false"
+            android:hint="@string/birthdate_hint"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textColor="@color/blue"
+            android:textSize="28sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="28sp"
+            android:textColor="@color/blue"
+            android:id="@+id/password"
+            android:hint="@string/password_hint"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/insert"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white"
+            android:text="@string/registratione_button"/>
+    </LinearLayout>
+</ScrollView>

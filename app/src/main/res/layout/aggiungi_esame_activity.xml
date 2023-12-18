@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AggiungiEsameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aggiungiesame"
+            android:textColor="@color/blue"
+            android:textSize="36sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_esame"
+            android:textColor="@color/blue"
+            android:textSize="28sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/blue"
+            android:textSize="28sp"
+            android:id="@+id/name_exam"
+            android:hint="@string/nome_esame_hint"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cfu"
+            android:textColor="@color/blue"
+            android:textSize="28sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:textSize="28sp"
+            android:textColor="@color/blue"
+            android:id="@+id/cfunumber"
+            android:hint="@string/cfu_hint"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/voto"
+            android:textColor="@color/blue"
+            android:textSize="28sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:textSize="28sp"
+            android:textColor="@color/blue"
+            android:id="@+id/votoid"
+            android:hint="@string/voto_hint"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/add"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white"
+            android:text="@string/aggiungi"/>
+    </LinearLayout>
+</ScrollView>
